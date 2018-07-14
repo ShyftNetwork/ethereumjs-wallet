@@ -36,3 +36,5 @@ package-lock.json
 
 # Build folder
 dist
+
+.idea/
