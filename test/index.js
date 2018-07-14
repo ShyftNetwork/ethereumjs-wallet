@@ -2,7 +2,7 @@ var assert = require('assert')
 var Buffer = require('safe-buffer').Buffer
 var Wallet = require('../')
 var Thirdparty = require('../thirdparty.js')
-var ethUtil = require('ethereumjs-util')
+var ethUtil = require('@shyftnetwork/shyft_ethereumjs-util')
 
 var fixturekey = Buffer.from('efca4cdd31923b50f4214af5d2ae10e7ac45a5019e9431cc195482d707485378', 'hex')
 var fixturewallet = Wallet.fromPrivateKey(fixturekey)

@@ -1,5 +1,5 @@
 var Wallet = require('./index.js')
-var ethUtil = require('ethereumjs-util')
+var ethUtil = require('@shyftnetwork/shyft_ethereumjs-util')
 var crypto = require('crypto')
 var scryptsy = require('scrypt.js')
 var utf8 = require('utf8')

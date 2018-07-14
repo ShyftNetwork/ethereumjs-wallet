@@ -1,5 +1,5 @@
 {
-  "name": "ethereumjs-wallet",
+  "name": "@shyftnetwork/shyft_ethereumjs-wallet",
   "version": "0.6.0",
   "description": "Utilities for handling Ethereum keys",
   "main": "dist/index.js",
@@ -17,23 +17,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereumjs/ethereumjs-wallet.git"
+    "url": "https://github.com/shyftnetwork/shyft_ethereumjs-wallet.git"
   },
   "keywords": [
     "ethereum",
     "wallets",
     "keys"
   ],
-  "author": "Alex Beregszaszi <alex@rtfs.hu>",
+  "autho": "shyftnetwork",
+  "contributors": [
+    "Alex Beregszaszi <alex@rtfs.hu>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-wallet/issues"
+    "url": "https://github.com/shyftnetwork/shyft_ethereumjs-wallet/issues"
   },
-  "homepage": "https://github.com/ethereumjs/ethereumjs-wallet",
+  "homepage": "https://github.com/shyftnetwork/shyft_ethereumjs-wallet",
   "dependencies": {
     "aes-js": "^3.1.0",
     "bs58check": "^2.1.1",
-    "ethereumjs-util": "^5.1.4",
+    "@shyftnetwork/shyft_ethereumjs-util": "^5.1.4",
     "hdkey": "^0.8.0",
     "safe-buffer": "^5.1.1",
     "scrypt.js": "^0.2.0",
